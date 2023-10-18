@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel World</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link an external CSS file for styling -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1><a href="index.html">Travel World</a></h1>
+                <ul>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <h2>Discover the World</h2>
+            <p>Your adventure starts here!</p>
+            <a href="#destinations" class="cta-button">Explore Destinations</a>
+        </div>
+    </header>
+
+    <section id="destinations" class="content">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <div class="destination">
+                <img src="paris.jpg" alt="Paris">
+                <h3>Paris</h3>
+                <p>Explore the City of Light</p>
+            </div>
+            <div class="destination">
+                <img src="bali.jpg" alt="Bali">
+                <h3>Bali</h3>
+                <p>Relax on Beautiful Beaches</p>
+            </div>
+            <div class="destination">
+                <img src="nyc.jpg" alt="New York City">
+                <h3>New York City</h3>
+                <p>Experience the Big Apple</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="content">
+        <div class="container">
+            <h2>Travel Packages</h2>
+            <div class="package">
+                <img src="package1.jpg" alt="Package 1">
+                <h3>Adventure in the Wild</h3>
+                <p>Explore exotic locations with our adventure package.</p>
+            </div>
+            <div class="package">
+                <img src="package2.jpg" alt="Package 2">
+                <h3>Relaxing Beach Getaway</h3>
+                <p>Unwind on pristine beaches with our beach getaway package.</p>
+            </div>
+            <div class="package">
+                <img src="package3.jpg" alt="Package 3">
+                <h3>City Explorer</h3>
+                <p>Discover bustling cities with our city explorer package.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Contact us today!</p>
+            <a href="contact.html" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Travel World</p>
+        </div>
+    </footer>
+</body>
+
+</html>
